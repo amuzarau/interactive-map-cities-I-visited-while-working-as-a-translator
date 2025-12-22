@@ -270,9 +270,9 @@ st.subheader("📌 List of visited cities")
 df["flag"] = df["iso"].apply(flag_svg)
 
 table = df[["city", "country", "flag"]].copy()
-table.columns = ["City", "Country", "Flag"]
-table.index = table.index + 1
-table.index.name = "#"
+table.insert(0, "#", range(1, len(table) + 1))  # ← # как обычная колонка
+table.columns = ["#", "City", "Country", "Flag"]
 
-html = table.to_html(escape=False)
+html = table.to_html(escape=False, index=False)
 st.markdown(html, unsafe_allow_html=True)
+
