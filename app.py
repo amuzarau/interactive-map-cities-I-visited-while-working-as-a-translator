@@ -28,7 +28,7 @@ data = {
     "Hannover",
     "Frankfurt am Main",
     "Warsaw",
-    "Gdynia",
+    "Łódź",
     "Kielce",
     "Moscow",
     "Saint Petersburg",
@@ -91,7 +91,7 @@ data = {
     52.3759,
     50.1109,
     52.2297,
-    54.5189,   # Gdynia
+    51.7592,   # Łódź
     50.8661,   # Kielce
     55.7558,
     59.9311,
@@ -112,7 +112,7 @@ data = {
     9.7320,
     8.6821,
     21.0122,
-    18.5305,   # Gdynia
+    19.4550,   # Łódź
     20.6286,   # Kielce
     37.6176,
     30.3609,
@@ -285,5 +285,6 @@ table.columns = ["#", "City", "Country", "Flag"]
 
 html = table.to_html(escape=False, index=False)
 st.markdown(html, unsafe_allow_html=True)
+
 
 
