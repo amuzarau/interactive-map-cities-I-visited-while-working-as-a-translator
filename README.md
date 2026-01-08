@@ -60,14 +60,12 @@ The table displays cities and SVG flags for country representation.
 ## 🧩 Project Structure
 
 interactive-map-cities-I-visited-while-working-as-a-translator/
-│
-├── app.py # Main Streamlit app
-├── requirements.txt # Python dependencies
-├── README.md # Project overview (this file)
-└── .gitignore # Git ignore rules
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 
-yaml
-Копировать код
+
 
 ---
 
@@ -82,17 +80,17 @@ git clone https://github.com/amuzarau/interactive-map-cities-I-visited-while-wor
 cd interactive-map-cities-I-visited-while-working-as-a-translator
 2. Create and activate a virtual environment
 bash
-Копировать код
+
 python3 -m venv venv
 source venv/bin/activate   # macOS / Linux
 venv\Scripts\activate      # Windows
 3. Install dependencies
 bash
-Копировать код
+
 pip install -r requirements.txt
 4. Run the app
 bash
-Копировать код
+
 streamlit run app.py
 The app will open in your browser at http://localhost:8501.
 
@@ -106,30 +104,9 @@ pandas
 plotly
 If you need to update dependencies, open requirements.txt.
 
-📌 Notes
-The map is designed to be mobile-friendly and responsive.
 
-When deployed on Streamlit Community Cloud, the app may go to sleep when idle.
 
-The app uses public GeoJSON data for country borders.
 
-🧭 Contributing
-Feel free to open issues or make pull requests.
-Suggestions welcome for improvements like:
 
-Adding filtering by country
-
-Displaying routes between cities
-
-Animation or timeline view of visits
-
-📝 License
-This project is open-source and available under the MIT License.
-
-🙏 Acknowledgements
-GeoJSON world data by Johan Sundström
-https://github.com/johan/world.geo.json
-
-Map rendering thanks to Plotly & Streamlit
 
 
