@@ -57,55 +57,6 @@ The table displays cities and SVG flags for country representation.
 
 ---
 
-## 🧩 Project Structure
-
-interactive-map-cities-I-visited-while-working-as-a-translator/
-├── app.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-
-
----
-
-## 🔧 Setup & Installation
-
-To run this project locally:
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/amuzarau/interactive-map-cities-I-visited-while-working-as-a-translator.git
-cd interactive-map-cities-I-visited-while-working-as-a-translator
-2. Create and activate a virtual environment
-bash
-
-python3 -m venv venv
-source venv/bin/activate   # macOS / Linux
-venv\Scripts\activate      # Windows
-3. Install dependencies
-bash
-
-pip install -r requirements.txt
-4. Run the app
-bash
-
-streamlit run app.py
-The app will open in your browser at http://localhost:8501.
-
-📦 Requirements
-The main dependencies are:
-
-text
-Копировать код
-streamlit
-pandas
-plotly
-If you need to update dependencies, open requirements.txt.
-
-
-
 
 
 
